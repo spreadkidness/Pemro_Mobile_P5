@@ -1,0 +1,8 @@
+<!-- Salin permission berikut ke dalam AndroidManifest.xml,
+     tepat setelah tag pembuka <manifest ...> dan sebelum <application>. -->
+<uses-permission android:name="android.permission.INTERNET" />
+
+<!-- Di dalam tag <application ...>, gunakan atribut berikut:
+     android:allowBackup="false"
+     android:usesCleartextTraffic="false"
+-->
